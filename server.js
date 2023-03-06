@@ -14,7 +14,7 @@ const db= knex({
   client: 'pg',
   version: '7.2',
   connection: {
-    host : 'postgres://smart_brain_afs8_user:eVBXlM0ATLU1UDzNhuaz8phccnVpfrhu@dpg-cg33e9pmbg590l1rrfi0-a/smart_brain_afs8',
+    host : 'dpg-cg33e9pmbg590l1rrfi0-a.oregon-postgres.render.com',
     port : 5432,
     user : 'smart_brain_afs8_user',
     password : 'eVBXlM0ATLU1UDzNhuaz8phccnVpfrhu',
@@ -77,3 +77,6 @@ app.listen(3001, ()=>{
 	console.log('App is running on port 3001');
 })
 
+
+
+dpg-cg33e9pmbg590l1rrfi0-a.oregon-postgres.render.com/
