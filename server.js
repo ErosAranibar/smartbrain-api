@@ -14,11 +14,11 @@ const db= knex({
   client: 'pg',
   version: '7.2',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgres://smart_brain_afs8_user:eVBXlM0ATLU1UDzNhuaz8phccnVpfrhu@dpg-cg33e9pmbg590l1rrfi0-a/smart_brain_afs8',
     port : 5432,
-    user : 'postgres',
-    password : 'test',
-    database : 'smart-brain'
+    user : 'smart_brain_afs8_user',
+    password : 'eVBXlM0ATLU1UDzNhuaz8phccnVpfrhu',
+    database : 'smart_brain_afs8'
   }
 });
 //Connecting the server with the database
