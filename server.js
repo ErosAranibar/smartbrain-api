@@ -77,6 +77,3 @@ app.listen(3001, ()=>{
 	console.log('App is running on port 3001');
 })
 
-
-
-dpg-cg33e9pmbg590l1rrfi0-a.oregon-postgres.render.com/
